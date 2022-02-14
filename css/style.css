@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {}
+
+#sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(35, 27, 46);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#sidebar .sidebar-avatar img {
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.nav-content {
+    color: white;
+}
+
+.sidebar-nav {
+    padding-top: 25px;
+}
+
+#sidebar>ul>li {
+    padding: 7px 15px;
+}
+
+.nav-content:hover {
+    background-color: #fff;
+    color: hsla(120, 45%, 2%, 0.5);
+    cursor: pointer;
+    border-radius: 20px 20px;
+}
+
+.nav-content>i {
+    padding: 0 10px;
+}
